@@ -110,7 +110,8 @@ main{
 }
 
 .positive{
-    background-image: url("images/watch.png"), linear-gradient(90deg, #F15B22, white);
+    background-image: url("images/watch.png"),linear-gradient(90deg, #F15B22, transparent);
+    background-blend-mode: overlay;
     border-radius: 5px;
     width: 1140px;
     height: 300px;
