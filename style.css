@@ -1,0 +1,213 @@
+.header{
+    background-image: url('images/banner/banner1.png');
+}
+
+.header-container{
+
+    width: 1500px;
+    height: 750px;
+    display: flex;
+    align-items: flex-end;
+    
+    flex-direction: column;
+}
+.header-title{
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    width: 525px;
+    height: 228px;
+    margin-top: 216px;
+    margin-right: 230px;
+    
+    
+}
+.header-description{
+    /* margin: 216px 230px 364px 845px; */
+   
+   width: 494px;
+   height: 78px;
+   margin-right: 230px;
+   margin-left: 876px;
+   text-align: right;
+    
+
+
+}
+.header-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 160px;
+    height: 64px;
+    margin-right: 230px;
+    border-radius: 5px;
+    background: #F15B22;
+
+}
+
+main{
+    width: 1500px;
+    height: 1600px;
+    background: #fff;
+}
+.main-container{
+    display: flex; 
+    
+    justify-content: space-around;
+   
+    align-items: center;
+}
+.person{
+    margin-left: 206px;
+    
+}
+.main-title{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 288px;
+    height: 94px;
+    margin-right: 300px;
+}
+
+.main-description{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+    height: 104px;
+}
+.my-plans{
+    width: 1140px;
+    align-items: center;
+    margin-left: 230px;
+    
+    
+}
+.my-plans-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.my-plans-points{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    
+}
+
+.positive{
+    background-image: url("images/watch.png"), linear-gradient(90deg, #F15B22, white);
+    border-radius: 5px;
+    width: 1140px;
+    height: 300px;
+    align-items: center;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: flex-start;
+   
+}
+.positive-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 459px;
+    height: 94px; 
+    margin-left: 64px;
+}
+.positive-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    margin-left: 64px;
+}
+.footer{
+    background-color: black;
+    width: 1500px;
+    height: 577px;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+  
+    color: white;
+
+
+}
+.future{
+    display: block;
+}
+.future-title{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 150px;
+}
+.future-description{
+    width: 485px;
+    height: 30px;
+   
+}
+
+.social-media, img{
+    
+    border-radius: 50%;
+}
+.footer-subscribe{
+    display: block;
+    margin-right: 229px;
+}
+
+.footer-subscribe, .subscribe{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100px;
+    height: 29px;
+    margin-top: 150px;
+}
+
+#email{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: black;
+}
+.subscribe-btn{
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 20px;
+    color: #F15B22;
+}
